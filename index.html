@@ -144,6 +144,18 @@
 
 <!-- ======================= PUBLICATION AND TALKS =============================== -->
 
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+
 
 <section id="publication"  style="padding-top: 4%; padding-bottom: 6%; background-color: white">
   <div class="container">
@@ -153,7 +165,7 @@
         <h2 class="section-heading text-uppercase mx-auto" style="color: black; padding-bottom: 40px; text-align: center">Publications</h2>
         <ul>
           <li><p><i>Pragmatic Psychiatric Epidemiology - If You Can't Count It, It Won't Count.</i><br>J. McGrath, P. Mortensen, H. Whiteford. <br><a href="https://www.ncbi.nlm.nih.gov/pubmed/29322163">PubMed</a> | <a href="doc/Publi_McGrath_Count.pdf">PDF</a></p></li>
-          <li><p><i>The pervasive nature of comorbidity within mental disorders: a comprehensive, nationwide cohort study.</i><br>Oleguer Plana-Ripoll, Carsten Bøcker Pedersen, Yan Holtz, Michael Benros, Søren Dalsgaard, Peter De Jonge, Chun Chieh Fan, Louisa Degenhardt, Andrea Ganna, Aja Neergaard Greve, Jane Gunn, Kim Moesgaard Iburg, Lars Vedel Kessing, Brian K. Lee, Carmen C.W. Lim, Ole Mors, Merete Nordentoft, Anders Prior, Annelieke M. Roest, Sukanta Saha, Andrew Schork, James G. Scott, Kate M. Scott, Terry Stedman, Holger J. Sørensen, Thomas Werge, Harvey A. Whiteford, Thomas Munk Laursen, Esben Agerbo, Ron C. Kessler, Preben Bo Mortensen, John J. McGrath<br><a href="https://www.ncbi.nlm.nih.gov/pubmed/29322163">JAMA Psychiatry</a> | <a href="doc/Publi_McGrath_Count.pdf">PDF</a></p></li>
+          <li><p><i>The pervasive nature of comorbidity within mental disorders: a comprehensive, nationwide cohort study.</i><br>Oleguer Plana-Ripoll, Carsten Bøcker Pedersen, Yan Holtz, <a onclick="myFunction()" style="color: red"> [...]</a><span id="myDIV" style="display: none"> Michael Benros, Søren Dalsgaard, Peter De Jonge, Chun Chieh Fan, Louisa Degenhardt, Andrea Ganna, Aja Neergaard Greve, Jane Gunn, Kim Moesgaard Iburg, Lars Vedel Kessing, Brian K. Lee, Carmen C.W. Lim, Ole Mors, Merete Nordentoft, Anders Prior, Annelieke M. Roest, Sukanta Saha, Andrew Schork, James G. Scott, Kate M. Scott, Terry Stedman, Holger J. Sørensen, Thomas Werge, Harvey A. Whiteford, Thomas Munk Laursen, Esben Agerbo, Ron C. Kessler, </span>, Preben Bo Mortensen, John J. McGrath<br><a href="https://www.ncbi.nlm.nih.gov/pubmed/29322163">JAMA Psychiatry</a> | <a href="doc/Publi_McGrath_Count.pdf">PDF</a></p></li>
         </ul>
       </div>
 
@@ -192,7 +204,7 @@
   <div class="row" id="portfolio-items">
     <div class="col-md-6 col-sm-12 portfolio-item">
       <a class="portfolio-link" href="https://holtzyan.shinyapps.io/the-nb-como-project/">
-        <img class="img-fluid" src="img/Sankey.png" alt="" width="100%">
+        <img class="img-fluid" src="img/Sankey.png" alt="A sankey diagram about comorbidity">
       </a>
     </div>
     <div class="col-md-6 col-sm-12" style="padding-left: 60px; padding-top: 40px">
