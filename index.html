@@ -11,9 +11,9 @@
 
     <!-- Control appearance when share by social media -->
     <meta property="og:title" content="Niels Bohr Professorship Psychiatric Epidemiology" />
-    <meta property="og:image" content="img/TODO" />
+    <meta property="og:image" content="img/NBPlogo.jpg" />
     <meta property="og:description" content="The landing page of the NB epidemiology project" />
-    <meta property='og:url' content="TODO.com" />
+    <meta property='og:url' content="https://www.nbepi.com" />
     <meta property="og:type" content="website" />
 
     <!-- Bootstrap core CSS -->
@@ -157,7 +157,7 @@ function myFunction() {
 
 
 
-<section id="publication"  style="padding-top: 4%; padding-bottom: 6%; background-color: white">
+<section id="publication"  style="background-color: white">
   <div class="container">
     <div class="row">
 
@@ -202,15 +202,15 @@ function myFunction() {
     </div>
 
   <div class="row" id="portfolio-items">
-    <div class="col-md-6 col-sm-12 portfolio-item">
+    <div class="col-md-5 col-sm-12 portfolio-item">
       <a class="portfolio-link" href="https://holtzyan.shinyapps.io/the-nb-como-project/">
         <img class="img-fluid" src="img/como_sankey.png" alt="A sankey diagram about comorbidity">
       </a>
     </div>
-    <div class="col-md-6 col-sm-12" style="padding-left: 60px; padding-top: 40px">
-      <h1>The Como Project</h1>
+    <div class="col-md-7 col-sm-12" style="padding-left: 60px; padding-top: 0px">
+      <h1>Comorbidity within mental disorders: Danish registers</h1>
       <hr>
-      <p>A study of interconnection between mental disorders. Published in <i>JAMA Psychiatry</i>. Well if we show the text, we may give a bit more of description?</p>
+      <p>This website shows the pair-wise risk of comorbidity between 10 broad types of mental disorders.<br>The data can be explore by sex, types of disorder, time since onset. We show relative risks (Hazard Ratios) and absolute risks.<br>Also, you can download the data, and see links to Github for more details of the statistical methods and data visualization methods.</p>
       <p><a href="https://holtzyan.shinyapps.io/the-nb-como-project/">Online application</a> | Related publication</p>
     </div>
   </div>
@@ -259,10 +259,16 @@ function myFunction() {
 
 
 <!-- ======================== ANIMATION SECTION ============================ -->
-<!-- Images must be 380 x 445, resize them with -->
-<!-- Change image size o have height = 445: convert tmp.png -resize 380x445 new.png -->
-<!-- Add white space on the side to have the good size: convert -size 380x445 xc:white new.png  -gravity center -composite output.png -->
+<!-- Images must be 600 x 400, resize them with -->
+<!-- Change image size o have height = 400: convert tmp.png -resize 600x400 new.png -->
+<!-- Add white space on the side to have the good size: convert -size 600x400 xc:white new.png  -gravity center -composite output.png -->
+<!-- Add the play logo: composite -gravity center youtubeplaylogo.png  output.png  result.png
 <!-- Or adapt to add height on top / bottom -->
+
+
+
+
+
 
 <style>
 .explanation_portfolio{
@@ -284,23 +290,10 @@ function myFunction() {
     <br><br>
 
     <div class="row" id="portfolio-items">
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <img class="img-fluid" src="img/video.png" alt="" width="90%">
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <img class="img-fluid" src="img/video.png" alt="" width="90%">
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <img class="img-fluid" src="img/video.png" alt="" width="90%">
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <img class="img-fluid" src="img/video.png" alt="" width="90%">
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <img class="img-fluid" src="img/video.png" alt="" width="90%">
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <img class="img-fluid" src="img/video.png" alt="" width="90%">
+      <div class="col-md-12 col-sm-12 col-lg-6 portfolio-item">
+        <a href="https://vimeo.com/281237466"><img class="img-fluid" src="img/animation_como.png" alt="introductory video to comorbidity" style="margin-bottom: 15px;"></a>
+        <h1>Comorbidity</h1>
+        <p>The interconnection between mental disorders - <a href="https://vimeo.com/281237466">Watch</a></p>
       </div>
     </div>
 
