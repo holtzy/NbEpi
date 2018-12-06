@@ -145,8 +145,8 @@
 <!-- ======================= PUBLICATION AND TALKS =============================== -->
 
 <script>
-function myFunction() {
-    var x = document.getElementById("myDIV");
+function myFunction(id) {
+    var x = document.getElementById(id);
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
@@ -165,7 +165,8 @@ function myFunction() {
         <h2 class="section-heading text-uppercase mx-auto" style="color: black; padding-bottom: 40px; text-align: center">Publications</h2>
         <ul>
           <li><p><i>Pragmatic Psychiatric Epidemiology - If You Can't Count It, It Won't Count.</i><br>J. McGrath, P. Mortensen, H. Whiteford. <br><a href="https://www.ncbi.nlm.nih.gov/pubmed/29322163">PubMed</a> | <a href="doc/Publi_McGrath_Count.pdf">PDF</a></p></li>
-          <li><p><i>The pervasive nature of comorbidity within mental disorders: a comprehensive, nationwide cohort study.</i><br>Oleguer Plana-Ripoll, Carsten Bøcker Pedersen, Yan Holtz, <a onclick="myFunction()" style="color: red"> [...]</a><span id="myDIV" style="display: none"> Michael Benros, Søren Dalsgaard, Peter De Jonge, Chun Chieh Fan, Louisa Degenhardt, Andrea Ganna, Aja Neergaard Greve, Jane Gunn, Kim Moesgaard Iburg, Lars Vedel Kessing, Brian K. Lee, Carmen C.W. Lim, Ole Mors, Merete Nordentoft, Anders Prior, Annelieke M. Roest, Sukanta Saha, Andrew Schork, James G. Scott, Kate M. Scott, Terry Stedman, Holger J. Sørensen, Thomas Werge, Harvey A. Whiteford, Thomas Munk Laursen, Esben Agerbo, Ron C. Kessler, </span>, Preben Bo Mortensen, John J. McGrath<br><a class="isDisabled" href="">JAMA Psychiatry</a> | <a class="isDisabled" href="">PDF</a></p></li>
+          <li><p><i>The pervasive nature of comorbidity within mental disorders: a comprehensive, nationwide cohort study.</i><br>Oleguer Plana-Ripoll, Carsten Bøcker Pedersen, Yan Holtz, <a onclick="myFunction('myDIV')" style="color: red"> [...]</a><span id="myDIV" style="display: none"> Michael Benros, Søren Dalsgaard, Peter De Jonge, Chun Chieh Fan, Louisa Degenhardt, Andrea Ganna, Aja Neergaard Greve, Jane Gunn, Kim Moesgaard Iburg, Lars Vedel Kessing, Brian K. Lee, Carmen C.W. Lim, Ole Mors, Merete Nordentoft, Anders Prior, Annelieke M. Roest, Sukanta Saha, Andrew Schork, James G. Scott, Kate M. Scott, Terry Stedman, Holger J. Sørensen, Thomas Werge, Harvey A. Whiteford, Thomas Munk Laursen, Esben Agerbo, Ron C. Kessler, </span>, Preben Bo Mortensen, John J. McGrath<br><a class="isDisabled" href="">JAMA Psychiatry</a> | <a class="isDisabled" href="">PDF</a></p></li>
+          <li><p><i>The association between neonatal vitamin D status and risk of schizophrenia.</i><br>Darryl W. Eyles, Maciej Trzaskowski, <a onclick="myFunction('myDIV2')" style="color: red"> [...]</a><span id="myDIV2" style="display: none"> Anna A. E. Vinkhuyzen, Manuel Mattheisen,  Sandra Meier,  Helen Gooch,   Victor Anggono,  Xiaoying Cui,  Men Chee Tan, Thomas H.J. Burne, Se Eun Jang, David Kvaskoff,  David M. Hougaard,  Bent Nørgaard-Pedersen,   Arieh Cohen,  Esben Agerbo,  Carsten B. Pedersen, Anders D. Børglum, Ole Mors, Pankaj Sah, Naomi R. Wray, </span>, Preben Bo Mortensen, John J. McGrath<br><a href="www.nature.com/articles/s41598-018-35418">Scientific Reports</a> | <a class="isDisabled" href="">PDF</a></p></li>
         </ul>
       </div>
 
@@ -227,6 +228,12 @@ function myFunction() {
 </section>
 
 <!-- https://holtzyan.shinyapps.io/the-nb-como-project/ -->
+
+
+
+
+
+
 
 
 
@@ -298,6 +305,11 @@ function myFunction() {
     <br><br>
 
     <div class="row" id="portfolio-items">
+      <div class="col-md-12 col-sm-12 col-lg-6 portfolio-item">
+        <a href="https://www.youtube.com/watch?v=_k_IYyPsbD8&frags=pl%2Cwn"><img class="img-fluid" src="img/animation_vitaminD.png" alt="introductory video to comorbidity" style="margin-bottom: 15px;"></a>
+        <h1>Vitamin D & Schizophrenia</h1>
+        <p>The association between neonatal vitamin D status and risk of schizophrenia. - <a href="https://www.youtube.com/watch?v=_k_IYyPsbD8&frags=pl%2Cwn">Watch</a></p>
+      </div>
       <div class="col-md-12 col-sm-12 col-lg-6 portfolio-item">
         <a href="https://vimeo.com/281237466"><img class="img-fluid" src="img/animation_como.png" alt="introductory video to comorbidity" style="margin-bottom: 15px;"></a>
         <h1>Comorbidity: definition</h1>
